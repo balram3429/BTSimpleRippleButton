@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "btViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    btViewController *homeCtrllr = [[btViewController alloc]init];
+    UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:homeCtrllr];
+    navigation.navigationBarHidden = YES;
+    self.window.rootViewController = navigation;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

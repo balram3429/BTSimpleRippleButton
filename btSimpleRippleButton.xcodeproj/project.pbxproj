@@ -19,6 +19,14 @@
 		BD148CC0193AE00F00BEADD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD148CA8193AE00F00BEADD2 /* UIKit.framework */; };
 		BD148CC8193AE00F00BEADD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD148CC6193AE00F00BEADD2 /* InfoPlist.strings */; };
 		BD148CCA193AE00F00BEADD2 /* btSimpleRippleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD148CC9193AE00F00BEADD2 /* btSimpleRippleButtonTests.m */; };
+		BD148CD5193AE04800BEADD2 /* btViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD148CD4193AE04800BEADD2 /* btViewController.m */; };
+		BD148CDA193AE1AA00BEADD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD148CD9193AE1AA00BEADD2 /* QuartzCore.framework */; };
+		BD148CDE193AE1C200BEADD2 /* btRippleButtton.m in Sources */ = {isa = PBXBuildFile; fileRef = BD148CDD193AE1C200BEADD2 /* btRippleButtton.m */; };
+		BD148CE5193AF82D00BEADD2 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = BD148CE2193AF82D00BEADD2 /* google.png */; };
+		BD148CE6193AF82D00BEADD2 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = BD148CE3193AF82D00BEADD2 /* green.png */; };
+		BD148CE7193AF82D00BEADD2 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = BD148CE4193AF82D00BEADD2 /* pin.png */; };
+		BDB5D237193B0D6500388F93 /* author.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB5D236193B0D6500388F93 /* author.png */; };
+		BDB5D239193B134300388F93 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDB5D238193B134300388F93 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,16 @@
 		BD148CC5193AE00F00BEADD2 /* btSimpleRippleButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "btSimpleRippleButtonTests-Info.plist"; sourceTree = "<group>"; };
 		BD148CC7193AE00F00BEADD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD148CC9193AE00F00BEADD2 /* btSimpleRippleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = btSimpleRippleButtonTests.m; sourceTree = "<group>"; };
+		BD148CD3193AE04800BEADD2 /* btViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btViewController.h; sourceTree = "<group>"; };
+		BD148CD4193AE04800BEADD2 /* btViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btViewController.m; sourceTree = "<group>"; };
+		BD148CD9193AE1AA00BEADD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BD148CDC193AE1C200BEADD2 /* btRippleButtton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btRippleButtton.h; sourceTree = "<group>"; };
+		BD148CDD193AE1C200BEADD2 /* btRippleButtton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btRippleButtton.m; sourceTree = "<group>"; };
+		BD148CE2193AF82D00BEADD2 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		BD148CE3193AF82D00BEADD2 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		BD148CE4193AF82D00BEADD2 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		BDB5D236193B0D6500388F93 /* author.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = author.png; sourceTree = "<group>"; };
+		BDB5D238193B134300388F93 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD148CDA193AE1AA00BEADD2 /* QuartzCore.framework in Frameworks */,
 				BD148CA7193AE00F00BEADD2 /* CoreGraphics.framework in Frameworks */,
 				BD148CA9193AE00F00BEADD2 /* UIKit.framework in Frameworks */,
 				BD148CA5193AE00F00BEADD2 /* Foundation.framework in Frameworks */,
@@ -77,6 +96,8 @@
 		BD148C98193AE00F00BEADD2 = {
 			isa = PBXGroup;
 			children = (
+				BD148CDF193AE5D900BEADD2 /* images */,
+				BD148CDB193AE1C200BEADD2 /* btRippleButton */,
 				BD148CAA193AE00F00BEADD2 /* btSimpleRippleButton */,
 				BD148CC3193AE00F00BEADD2 /* btSimpleRippleButtonTests */,
 				BD148CA3193AE00F00BEADD2 /* Frameworks */,
@@ -96,6 +117,7 @@
 		BD148CA3193AE00F00BEADD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD148CD9193AE1AA00BEADD2 /* QuartzCore.framework */,
 				BD148CA4193AE00F00BEADD2 /* Foundation.framework */,
 				BD148CA6193AE00F00BEADD2 /* CoreGraphics.framework */,
 				BD148CA8193AE00F00BEADD2 /* UIKit.framework */,
@@ -111,6 +133,8 @@
 				BD148CB4193AE00F00BEADD2 /* AppDelegate.m */,
 				BD148CB6193AE00F00BEADD2 /* Images.xcassets */,
 				BD148CAB193AE00F00BEADD2 /* Supporting Files */,
+				BD148CD3193AE04800BEADD2 /* btViewController.h */,
+				BD148CD4193AE04800BEADD2 /* btViewController.m */,
 			);
 			path = btSimpleRippleButton;
 			sourceTree = "<group>";
@@ -142,6 +166,29 @@
 				BD148CC6193AE00F00BEADD2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD148CDB193AE1C200BEADD2 /* btRippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				BD148CDC193AE1C200BEADD2 /* btRippleButtton.h */,
+				BD148CDD193AE1C200BEADD2 /* btRippleButtton.m */,
+			);
+			name = btRippleButton;
+			path = btSimpleRippleButton/btRippleButton;
+			sourceTree = "<group>";
+		};
+		BD148CDF193AE5D900BEADD2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5D238193B134300388F93 /* background.jpg */,
+				BDB5D236193B0D6500388F93 /* author.png */,
+				BD148CE2193AF82D00BEADD2 /* google.png */,
+				BD148CE3193AF82D00BEADD2 /* green.png */,
+				BD148CE4193AF82D00BEADD2 /* pin.png */,
+			);
+			name = images;
+			path = btSimpleRippleButton/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +268,11 @@
 			files = (
 				BD148CAF193AE00F00BEADD2 /* InfoPlist.strings in Resources */,
 				BD148CB7193AE00F00BEADD2 /* Images.xcassets in Resources */,
+				BDB5D239193B134300388F93 /* background.jpg in Resources */,
+				BDB5D237193B0D6500388F93 /* author.png in Resources */,
+				BD148CE6193AF82D00BEADD2 /* green.png in Resources */,
+				BD148CE7193AF82D00BEADD2 /* pin.png in Resources */,
+				BD148CE5193AF82D00BEADD2 /* google.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +293,8 @@
 			files = (
 				BD148CB5193AE00F00BEADD2 /* AppDelegate.m in Sources */,
 				BD148CB1193AE00F00BEADD2 /* main.m in Sources */,
+				BD148CDE193AE1C200BEADD2 /* btRippleButtton.m in Sources */,
+				BD148CD5193AE04800BEADD2 /* btViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +491,7 @@
 				BD148CCF193AE00F00BEADD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD148CD0193AE00F00BEADD2 /* Build configuration list for PBXNativeTarget "btSimpleRippleButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +500,7 @@
 				BD148CD2193AE00F00BEADD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
