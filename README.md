@@ -3,7 +3,7 @@ btSimpleRippleButton
 
 This is a custom button for iOS with Ripple effect. It is simple to integrate & customizable component.
 
-<img src="https://raw.githubusercontent.com/balram3429/btSimpleSideMenu/master/btSimpleSideMenuDemo/raw/btSimpleSideMenu.png" alt="btSimpleSideMenu Screenshot" width="320" height="568" />
+<img src="https://github.com/balram3429/btSimpleRippleButton/blob/master/btSimpleRippleButton/images/raw/btSimpleRippleButton-1.png" alt="btSimpleRippleButton Screenshot" width="320" height="568" />
 
 
 ## Requirements
