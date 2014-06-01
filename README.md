@@ -15,7 +15,7 @@ This is a custom button for iOS with Ripple effect. It is simple to integrate & 
 Build and run the `btSimpleRippleButton` project in Xcode to see `btRippleButtton` in action.
 
 ## Installation
-  1. Drag the file `btRippleButtton.h / btRippleButtton.m ` to your project folder.
+  1. Drag the file `btRippleButtton.h / btRippleButtton.m ` to your project. Alternatively you can add the folder `btRippleButton` to your project.
   2. Maken an import statement for the file as `#import"btRippleButtton.h"` .
   3. Add to your project the `QuartzCore framework` make an import statement for it.
 
