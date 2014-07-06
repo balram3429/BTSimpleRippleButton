@@ -1,4 +1,4 @@
-btSimpleRippleButton
+BTSimpleRippleButton
 ====================
 
 This is a custom button for iOS with Ripple effect. It is simple to integrate & customizable component. Suppors callback using blocks.
@@ -12,11 +12,11 @@ This is a custom button for iOS with Ripple effect. It is simple to integrate & 
 * ARC
 
 ## Demo
-Build and run the `btSimpleRippleButton` project in Xcode to see `btRippleButtton` in action.
+Build and run the `BTSimpleRippleButton` project in Xcode to see `BTRippleButtton` in action.
 
 ## Installation
   1. Drag the file `btRippleButtton.h / btRippleButtton.m ` to your project. Alternatively you can add the folder `btRippleButton` to your project.
-  2. Maken an import statement for the file as `#import"btRippleButtton.h"` .
+  2. Maken an import statement for the file as `#import"BTRippleButtton.h"` .
   3. Add to your project the `QuartzCore framework` make an import statement for it.
 
 
@@ -26,12 +26,12 @@ Build and run the `btSimpleRippleButton` project in Xcode to see `btRippleButtto
 To go with a simple initialization, use the below method. Provide an image, frame size, the target method & the sender view.
 
 ```objetice-c
-btRippleButtton *rippleButton = [[btRippleButtton alloc]initWithImage:[UIImage imageNamed:@"pin.png"]
+BTRippleButtton *rippleButton = [[BTRippleButtton alloc]initWithImage:[UIImage imageNamed:@"pin.png"]
                                                              andFrame:CGRectMake(144, 55, 32, 32)
                                                             andTarget:@selector(buttonTapped:)
                                                                 andID:self];
                                                                 
-[rippleButton setRippeEffect:YES];
+[rippleButton setRippeEffectEnabled:YES];
 [rippleButton setRippleEffectWithColor:[UIColor colorWithRed:240/255.f green:159/255.f blue:10/255.f alpha:1]];
 [self.view addSubview:rippleButton];
 
@@ -41,7 +41,7 @@ btRippleButtton *rippleButton = [[btRippleButtton alloc]initWithImage:[UIImage i
 For block based initialization to enable call back, use the below simple method.
 
 ```objective-c
-btRippleButtton *rippleButtonGreen = [[btRippleButtton alloc] initWithImage:[UIImage imageNamed:@"author.png"]
+BTRippleButtton *rippleButtonGreen = [[BTRippleButtton alloc] initWithImage:[UIImage imageNamed:@"author.png"]
                                                                    andFrame:CGRectMake(110, 300, 99, 99)
                                                                onCompletion:^(BOOL success) {
                                                                    
@@ -50,7 +50,7 @@ btRippleButtton *rippleButtonGreen = [[btRippleButtton alloc] initWithImage:[UII
                                                                        
                                                                    }];
     
-[rippleButtonGreen setRippeEffect:YES];
+[rippleButtonGreen setRippeEffectEnabled:YES];
 [rippleButtonGreen setRippleEffectWithColor:[UIColor colorWithRed:204/255.f green:270/255.f blue:12/255.f alpha:1]];
 [self.view addSubview:rippleButtonGreen];
 ```
