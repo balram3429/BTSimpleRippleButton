@@ -1,14 +1,14 @@
 //
-//  btRippleButtton.m
-//  btSimpleRippleButton
+//  BTRippleButtton.m
+//  BTSimpleRippleButton
 //
 //  Created by Balram Tiwari on 01/06/14.
 //  Copyright (c) 2014 Balram. All rights reserved.
 //
 #import <QuartzCore/QuartzCore.h>
-#import "btRippleButtton.h"
+#import "BTRippleButtton.h"
 
-@implementation btRippleButtton
+@implementation BTRippleButtton
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -71,8 +71,8 @@
     rippleColor = color;
 }
 
--(void)setRippeEffect:(BOOL)effect {
-    isRippleOn = effect;
+-(void)setRippeEffectEnabled:(BOOL)enabled {
+    isRippleOn = enabled;
 }
 
 -(void)handleTap:(id)sender {

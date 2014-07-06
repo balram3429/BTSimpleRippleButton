@@ -1,6 +1,6 @@
 //
-//  btRippleButtton.h
-//  btSimpleRippleButton
+//  BTRippleButtton.h
+//  BTSimpleRippleButton
 //
 //  Created by Balram Tiwari on 01/06/14.
 //  Copyright (c) 2014 Balram. All rights reserved.
@@ -10,7 +10,7 @@
 
 typedef void (^completion)(BOOL success);
 
-@interface btRippleButtton : UIView{
+@interface BTRippleButtton : UIView{
     @private
     UIImageView *imageView;
     UILabel *title;
@@ -29,6 +29,6 @@ typedef void (^completion)(BOOL success);
 -(instancetype)initWithImage:(UIImage *)image andFrame:(CGRect)frame onCompletion:(completion)completionBlock;
 
 -(void)setRippleEffectWithColor:(UIColor *)color;
--(void)setRippeEffect:(BOOL)effect;
+-(void)setRippeEffectEnabled:(BOOL)setRippeEffectEnabled;
 
 @end

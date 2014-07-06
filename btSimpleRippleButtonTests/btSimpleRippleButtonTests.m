@@ -1,6 +1,6 @@
 //
-//  btSimpleRippleButtonTests.m
-//  btSimpleRippleButtonTests
+//  BTSimpleRippleButtonTests.m
+//  BTSimpleRippleButtonTests
 //
 //  Created by Balram Tiwari on 01/06/14.
 //  Copyright (c) 2014 Balram. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface btSimpleRippleButtonTests : XCTestCase
+@interface BTSimpleRippleButtonTests : XCTestCase
 
 @end
 
-@implementation btSimpleRippleButtonTests
+@implementation BTSimpleRippleButtonTests
 
 - (void)setUp
 {

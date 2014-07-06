@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D7736583-B6D7-4E04-B05C-29AFB8F2152B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>btSimpleRippleButton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6DBA70DA-DA98-43D5-81ED-B225A95A87D2</key>
+		<string>https://github.com/balram3429/btSimpleRippleButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>btSimpleRippleButton.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6DBA70DA-DA98-43D5-81ED-B225A95A87D2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/balram3429/btSimpleRippleButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6DBA70DA-DA98-43D5-81ED-B225A95A87D2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6DBA70DA-DA98-43D5-81ED-B225A95A87D2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>btSimpleRippleButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>

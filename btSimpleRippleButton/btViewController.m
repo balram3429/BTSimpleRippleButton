@@ -1,6 +1,6 @@
 //
 //  btViewController.m
-//  btSimpleRippleButton
+//  BTSimpleRippleButton
 //
 //  Created by Balram Tiwari on 01/06/14.
 //  Copyright (c) 2014 Balram. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 #import "btViewController.h"
-#import "btRippleButton/btRippleButtton.h"
+#import "BTRippleButton/BTRippleButtton.h"
 
 @interface btViewController ()
 
@@ -36,25 +36,25 @@
     self.view.backgroundColor = [UIColor colorWithWhite:0.2 alpha:0.9];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
-    btRippleButtton *rippleButton = [[btRippleButtton alloc]initWithImage:[UIImage imageNamed:@"pin.png"]
+    BTRippleButtton *rippleButton = [[BTRippleButtton alloc]initWithImage:[UIImage imageNamed:@"pin.png"]
                                                                  andFrame:CGRectMake(144, 55, 32, 32)
                                                                 andTarget:@selector(buttonTapped:)
                                                                     andID:self];
-    [rippleButton setRippeEffect:YES];
+    [rippleButton setRippeEffectEnabled:YES];
     [rippleButton setRippleEffectWithColor:[UIColor colorWithRed:240/255.f green:159/255.f blue:10/255.f alpha:1]];
     [self.view addSubview:rippleButton];
     
-    btRippleButtton *rippleButton1 = [[btRippleButtton alloc]initWithImage:[UIImage imageNamed:@"green.png"]
+    BTRippleButtton *rippleButton1 = [[BTRippleButtton alloc]initWithImage:[UIImage imageNamed:@"green.png"]
                                                                  andFrame:CGRectMake(124, 150, 75, 75)
                                                                 andTarget:@selector(buttonTapped:)
                                                                     andID:self];
-    [rippleButton1 setRippeEffect:YES];
+    [rippleButton1 setRippeEffectEnabled:YES];
     [rippleButton1 setRippleEffectWithColor:[UIColor colorWithRed:240/255.f green:159/255.f blue:254/255.f alpha:1]];
     [self.view addSubview:rippleButton1];
 
     
     
-    btRippleButtton *rippleButtonGreen = [[btRippleButtton alloc] initWithImage:[UIImage imageNamed:@"author.png"]
+    BTRippleButtton *rippleButtonGreen = [[BTRippleButtton alloc] initWithImage:[UIImage imageNamed:@"author.png"]
                                                                        andFrame:CGRectMake(110, 300, 99, 99)
                                                                    onCompletion:^(BOOL success) {
                                                                    
@@ -82,7 +82,7 @@
                                                                    
                                                                    }];
     
-    [rippleButtonGreen setRippeEffect:YES];
+    [rippleButtonGreen setRippeEffectEnabled:YES];
     [rippleButtonGreen setRippleEffectWithColor:[UIColor colorWithRed:204/255.f green:270/255.f blue:12/255.f alpha:1]];
     [self.view addSubview:rippleButtonGreen];
 }
