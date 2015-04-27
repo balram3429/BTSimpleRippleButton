@@ -98,7 +98,7 @@
         
         
         [CATransaction begin];
-        //remove layer after anmation completed
+        //remove layer after animation completed
         [CATransaction setCompletionBlock:^{
             [circleShape removeFromSuperlayer];
         }];
