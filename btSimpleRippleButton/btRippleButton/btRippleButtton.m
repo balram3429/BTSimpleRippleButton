@@ -96,6 +96,13 @@
         
         [self.layer addSublayer:circleShape];
         
+        
+        [CATransaction begin];
+        //remove layer after animation completed
+        [CATransaction setCompletionBlock:^{
+            [circleShape removeFromSuperlayer];
+        }];
+        
         CABasicAnimation *scaleAnimation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
         scaleAnimation.fromValue = [NSValue valueWithCATransform3D:CATransform3DIdentity];
         scaleAnimation.toValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(2.5, 2.5, 1)];
@@ -109,6 +116,8 @@
         animation.duration = 0.5f;
         animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
         [circleShape addAnimation:animation forKey:nil];
+        
+        [CATransaction commit];
     }
     
     [UIView animateWithDuration:0.1 animations:^{
